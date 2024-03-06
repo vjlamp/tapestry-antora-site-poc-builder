@@ -3,10 +3,7 @@ site:
   start_page: main::about.adoc
 content:
   sources:
-#  - url: https://gitlab.com/antora/demo/demo-component-b.git
-#    branches: [v2.0, v1.0]
-#    start_path: docs
-  - url: /Users/vlamp/git/tapestry-antora-site-poc-content
+  - url: https://github.com/vjlamp/tapestry-antora-site-poc-content.git
     branches: [main, 5.*]
 ui:
   bundle:

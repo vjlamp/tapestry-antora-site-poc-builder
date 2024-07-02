@@ -5,6 +5,11 @@ content:
   sources:
   - url: https://github.com/vjlamp/tapestry-antora-site-poc-content.git
     branches: [main, 5.*]
+asciidoc:
+  extensions:
+  - asciidoctor-kroki
+  - ./lib/issue-processor
+  - ./lib/javadoc-processor
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable

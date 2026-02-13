@@ -1,0 +1,3 @@
+# Redirect URLs of the legacy Confluence-based Tapestry Website to the new Antora-based Tapestry Website
+
+Redirect 301 /configuration.html /userguide/current/configuration.html

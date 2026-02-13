@@ -5,6 +5,10 @@ content:
   sources:
   - url: https://github.com/vjlamp/tapestry-antora-site-poc-content.git
     branches: [main, 5.*]
+urls:
+  # Make the latest version appear as 'current' in URLs (instead of the version number).
+  # That way, Redirects (configured in the .htaccess file) don't have to be updated for each new version.
+  latest_version_segment: current
 asciidoc:
   extensions:
   - asciidoctor-kroki

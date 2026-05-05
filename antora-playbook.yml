@@ -3,7 +3,7 @@ site:
   start_page: main::about.adoc
 content:
   sources:
-  - url: https://github.com/vjlamp/tapestry-antora-site-poc-content.git
+  - url: https://gitbox.apache.org/repos/asf/tapestry-5-site.git
     branches: [main, 5.*]
 urls:
   # Make the latest version appear as 'current' in URLs (instead of the version number).
